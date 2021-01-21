@@ -1,0 +1,21 @@
+1. Inicio
+
+2. funcion principal()
+3.	k, i[0-n]
+4.	k1, i[0-n]
+5. 	Mientras (k1 > 0) entonces
+6.		Escribir obtenerResiduo(k1) + " + 10 elevado a la pontencia " + contador
+7.		k1 <-- contador + 1
+8.	Fin Mientras
+9. fin funcion principal()
+
+10. funcion obtenerResiduo(numero, 1) : i
+11.	numero <-- numero MOD 10
+12.	return numero
+13. fin funcion obtenerResiduo
+
+14. funcion obtenerDivision(valor, i) : i
+15.	valor <-- valor /10
+16.	return valor
+17. fin funcion obtenerDivision
+19. Fin
